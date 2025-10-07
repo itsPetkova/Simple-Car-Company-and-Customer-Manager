@@ -1,0 +1,77 @@
+2025-10-06 18:28:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+SELECT * FROM CAR WHERE company_id=(?) ORDER BY id [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:284)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at carsharing.Main.handleCompanyMenu(Main.java:159)
+	at carsharing.Main.handleManagerMenu(Main.java:108)
+	at carsharing.Main.main(Main.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-06 18:29:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+SELECT * FROM CAR WHERE company_id=(?) ORDER BY id [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:284)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at carsharing.Main.handleCompanyMenu(Main.java:161)
+	at carsharing.Main.handleManagerMenu(Main.java:108)
+	at carsharing.Main.main(Main.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-06 18:30:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#1" is not set; SQL statement:
+SELECT * FROM CAR WHERE company_id=(?) ORDER BY id [90012-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:83)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:182)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:284)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at carsharing.Main.handleCompanyMenu(Main.java:161)
+	at carsharing.Main.handleManagerMenu(Main.java:108)
+	at carsharing.Main.main(Main.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:160)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$1(MainMethodExecutor.java:188)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-10-06 18:31:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "PREP12[*]: SELECT * FROM CAR WHERE COMPANY_ID=(?) ORDER BY ID {1: 1}"; expected "PREPARE"; SQL statement:
+prep12: SELECT * FROM CAR WHERE company_id=(?) ORDER BY id {1: 1} [42001-200]
+2025-10-07 16:03:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]

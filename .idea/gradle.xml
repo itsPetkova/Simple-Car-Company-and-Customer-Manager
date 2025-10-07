@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Car Sharing/task" />
+            <option value="$PROJECT_DIR$/Car Sharing/task (1)" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Car Sharing/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Leaderboard" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Natural ordering" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rules" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Method name" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Most valuable items" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/DAO pattern interface declaration" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/DAO pattern methods" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/Data stores usage" />
+            <option value="$PROJECT_DIR$/Topics/Data Access Object for JDBC/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Create a stream from a list" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Intermediate operations" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Print elements of a stream" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Statements about streams" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Calculating factorials" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Range quadratic sum" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Reduce operations" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Reducing persons by ages" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Theory" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

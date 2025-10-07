@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: src/carsharing/Main.java
+    visible: true
+    learner_created: false
+  - name: src/carsharing/CompanyDao.java
+    visible: true
+    learner_created: false
+  - name: src/carsharing/db/carsharing.trace.db
+    visible: true
+    learner_created: false
+  - name: test/CarSharingTest.java
+    visible: false
+    learner_created: false
+  - name: test/DatabaseUtil.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/140/stages/761/implement#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Tue, 07 Oct 2025 14:16:54 UTC"
+record: -1
