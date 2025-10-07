@@ -1,6 +1,6 @@
 # Simple Car Company and Customer Manager
 
-A **command-line interface (CLI)** application for managing car companies, their cars, and customers using **Java** and an **H2 embedded database**.
+A **command-line interface (CLI)** application for managing car companies, their cars, and customers using **Java** and an **H2 embedded database**. This project was created as part of a **JetBrains Hyperskill course**.
 
 ---
 
